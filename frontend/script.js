@@ -33,7 +33,11 @@ async function carregarProdutos() {
 
   produtos.forEach(p => {
     const li = document.createElement("li");
-    li.innerText = `${p.nome} - R$${p.precoDesconto} (vence em ${p.validade})`;
+li.innerHTML = `
+  <strong>${p.nome}</strong><br>
+  💰 De R$${p.preco} por R$${p.precoDesconto}<br>
+  ⏰ Vence em: ${p.validade}
+`;
     lista.appendChild(li);
   });
 }

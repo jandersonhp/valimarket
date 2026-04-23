@@ -1,4 +1,8 @@
-@startuml
+@startuml valimarket
+
+' =========================
+' Classes principais
+' =========================
 
 class Produto {
   - nome: String
@@ -9,7 +13,7 @@ class Produto {
 
 class Empresa {
   - nome: String
-  - produtos: List<Produto>
+  - produtos: Produto[]
 }
 
 class Usuario {
@@ -17,7 +21,24 @@ class Usuario {
   - email: String
 }
 
-Empresa "1" --> "*" Produto
+' =========================
+' Classe do sistema (backend)
+' =========================
+
+class Sistema {
+  + cadastrarProduto(produto: Produto)
+  + listarProdutos(): Produto[]
+  + listarProdutosProximos(): Produto[]
+}
+
+' =========================
+' Relacionamentos
+' =========================
+
+Empresa "1" o-- "*" Produto : possui
 Usuario --> Produto : visualiza
+Sistema --> Produto
+Sistema --> Empresa
+Sistema --> Usuario
 
 @enduml
