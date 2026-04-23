@@ -1,4 +1,19 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=200&section=header&text=ValiMarket&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Plataforma%20de%20Produtos%20Pr%C3%B3ximos%20ao%20Vencimento&descAlignY=55" />
+</p>
+
 # 📦 ValiMarket – Plataforma de Produtos Próximos ao Vencimento
+
+## 📑 Sumário
+
+- 📦 [Projeto](#-1-descrição-do-projeto)
+- ⚠️ [Problema](#-2-problema)
+- 💡 [Solução](#-3-solução)
+- 👥 [Público](#-4-público-alvo)
+- ⚙️ [Funcionalidades](#-5-funcionalidades-do-sistema)
+- 📐 [UML](#-modelagem-uml)
+- 🎥 [Apresentação](#-apresentação-do-projeto)
+- 🚀 [Execução](#-como-executar-o-projeto)
 
 ## 🎯 1. Descrição do Projeto
 
