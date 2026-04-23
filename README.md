@@ -118,6 +118,24 @@ Além disso, possui potencial de expansão e escalabilidade, podendo futuramente
 
 ---
 
+## 🎥 Apresentação do Projeto
+
+Uma versão demonstrativa do projeto pode ser acessada abaixo:
+
+- 🎬 Slides interativos:
+  https://jandersonhp.github.io/valimarket/slides/index.html  
+
+- 🗣️ Pitch (roteiro):
+  https://jandersonhp.github.io/valimarket/roteiro/pitch.pdf  
+
+- 📊 Modelo de Negócio (BMC):
+  https://jandersonhp.github.io/valimarket/roteiro/bmc.pdf  
+
+- 🎥 Pitch em vídeo (Em Breve)
+  
+
+---
+
 # 🚀 Como executar o projeto
 
 ## 1. Clonar o repositório
