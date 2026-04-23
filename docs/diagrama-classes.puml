@@ -1,42 +1,29 @@
-@startuml valimarket
-
-' =========================
-' Classes principais
-' =========================
+@startuml DiagramaClassesValiMarket
 
 class Produto {
-  - nome: String
-  - validade: Date
-  - preco: float
-  - precoDesconto: float
+  nome: String
+  validade: Date
+  preco: float
+  precoDesconto: float
 }
 
 class Empresa {
-  - nome: String
-  - produtos: Produto[]
+  nome: String
 }
 
 class Usuario {
-  - nome: String
-  - email: String
+  nome: String
+  email: String
 }
-
-' =========================
-' Classe do sistema (backend)
-' =========================
 
 class Sistema {
-  + cadastrarProduto(produto: Produto)
-  + listarProdutos(): Produto[]
-  + listarProdutosProximos(): Produto[]
+  cadastrarProduto(produto: Produto)
+  listarProdutos(): List<Produto>
+  listarProdutosProximos(): List<Produto>
 }
 
-' =========================
-' Relacionamentos
-' =========================
-
-Empresa "1" o-- "*" Produto : possui
-Usuario --> Produto : visualiza
+Empresa "1" o-- "*" Produto
+Usuario --> Produto
 Sistema --> Produto
 Sistema --> Empresa
 Sistema --> Usuario

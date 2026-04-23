@@ -118,47 +118,61 @@ Além disso, possui potencial de expansão e escalabilidade, podendo futuramente
 
 ---
 
+## 📐 Modelagem UML
+
+A modelagem UML foi utilizada para definir a estrutura e o fluxo do sistema, garantindo a organização e viabilidade técnica da solução.
+
+### Diagrama de Classes
+![Diagrama de Classes](docs/img/diagrama-classes.png)
+
+### Caso de Uso
+![Caso de Uso](docs/img/caso-de-uso.png)
+
+### Sequência
+![Sequência](docs/img/sequencia.png)
+
+---
+
 ## 🎥 Apresentação do Projeto
 
-Uma versão demonstrativa do projeto pode ser acessada abaixo:
+Uma versão demonstrativa do projeto e seus materiais de apresentação podem ser acessados abaixo:
 
 - 🎬 Slides interativos:
-  https://jandersonhp.github.io/valimarket/slides/index.html  
+https://jandersonhp.github.io/valimarket/slides/index.html  
 
 - 🗣️ Pitch (roteiro):
-  https://jandersonhp.github.io/valimarket/roteiro/pitch.pdf  
+https://jandersonhp.github.io/valimarket/roteiro/pitch.pdf  
 
 - 📊 Modelo de Negócio (BMC):
-  https://jandersonhp.github.io/valimarket/roteiro/bmc.pdf  
+https://jandersonhp.github.io/valimarket/roteiro/bmc.pdf  
 
-- 🎥 Pitch em vídeo (Em Breve)
-  
-
----
-
-# 🚀 Como executar o projeto
-
-## 1. Clonar o repositório
-git clone https://github.com/jandersonhp/valimarket.git
-
-## 2. Acessar a pasta
-cd valimarket
-
-## 3. Instalar dependências
-pip install -r requirements.txt
-
-## 4. Rodar o servidor
-python backend/app.py
+- 🎥 Pitch em vídeo (em breve)
 
 ---
 
-# 🔗 Endpoints da API
+## 🚀 Como executar o projeto
 
-## Listar produtos
-GET /produtos
+1. Clonar o repositório  
+git clone https://github.com/jandersonhp/valimarket.git  
 
-## Adicionar produto
-POST /produtos
+2. Acessar a pasta  
+cd valimarket  
 
-## Produtos próximos do vencimento
-GET /produtos/proximos
+3. Instalar dependências  
+pip install -r requirements.txt  
+
+4. Rodar o servidor  
+python backend/app.py  
+
+---
+
+## 🔗 Endpoints da API
+
+📥 Listar produtos  
+GET /produtos  
+
+➕ Adicionar produto  
+POST /produtos  
+
+⏰ Produtos próximos do vencimento  
+GET /produtos/proximos  

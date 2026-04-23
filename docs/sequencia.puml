@@ -1,11 +1,11 @@
-@startuml
+@startuml DiagramaSequenciaValiMarket
 
 actor Empresa
 participant Sistema
-participant Cliente
+actor Cliente
 
-Empresa -> Sistema: Cadastra produto
-Sistema -> Sistema: Verifica validade
-Sistema -> Cliente: Exibe produto com desconto
+Empresa -> Sistema: cadastrarProduto()
+Sistema -> Sistema: verificarValidade()
+Sistema -> Cliente: exibirProdutos()
 
 @enduml

@@ -1,12 +1,17 @@
-@startuml
+@startuml CasoDeUsoValiMarket
 
 actor Empresa
 actor Cliente
 
-Empresa --> (Cadastrar Produto)
-Empresa --> (Definir Desconto)
+usecase "Cadastrar Produto" as UC1
+usecase "Definir Desconto" as UC2
+usecase "Visualizar Produtos" as UC3
+usecase "Buscar Produtos" as UC4
 
-Cliente --> (Visualizar Produtos)
-Cliente --> (Buscar Produtos)
+Empresa --> UC1
+Empresa --> UC2
+
+Cliente --> UC3
+Cliente --> UC4
 
 @enduml
