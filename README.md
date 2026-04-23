@@ -115,3 +115,32 @@ O objetivo do MVP é validar a ideia sem necessidade de alta complexidade técni
 O projeto busca unir tecnologia e impacto social, reduzindo desperdícios e promovendo economia para consumidores.
 
 Além disso, possui potencial de expansão e escalabilidade, podendo futuramente se tornar uma solução amplamente utilizada no mercado.
+
+---
+
+# 🚀 Como executar o projeto
+
+## 1. Clonar o repositório
+git clone https://github.com/jandersonhp/valimarket.git
+
+## 2. Acessar a pasta
+cd valimarket
+
+## 3. Instalar dependências
+pip install -r requirements.txt
+
+## 4. Rodar o servidor
+python backend/app.py
+
+---
+
+# 🔗 Endpoints da API
+
+## Listar produtos
+GET /produtos
+
+## Adicionar produto
+POST /produtos
+
+## Produtos próximos do vencimento
+GET /produtos/proximos
