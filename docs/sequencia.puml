@@ -1,0 +1,11 @@
+@startuml
+
+actor Empresa
+participant Sistema
+participant Cliente
+
+Empresa -> Sistema: Cadastra produto
+Sistema -> Sistema: Verifica validade
+Sistema -> Cliente: Exibe produto com desconto
+
+@enduml

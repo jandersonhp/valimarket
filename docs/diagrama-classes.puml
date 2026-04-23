@@ -1,0 +1,23 @@
+@startuml
+
+class Produto {
+  - nome: String
+  - validade: Date
+  - preco: float
+  - precoDesconto: float
+}
+
+class Empresa {
+  - nome: String
+  - produtos: List<Produto>
+}
+
+class Usuario {
+  - nome: String
+  - email: String
+}
+
+Empresa "1" --> "*" Produto
+Usuario --> Produto : visualiza
+
+@enduml

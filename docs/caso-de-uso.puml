@@ -1,0 +1,12 @@
+@startuml
+
+actor Empresa
+actor Cliente
+
+Empresa --> (Cadastrar Produto)
+Empresa --> (Definir Desconto)
+
+Cliente --> (Visualizar Produtos)
+Cliente --> (Buscar Produtos)
+
+@enduml
