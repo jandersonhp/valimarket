@@ -4,5 +4,17 @@
         "validade": "2026-05-01",
         "preco": 5.0,
         "precoDesconto": 3.0
+    },
+    {
+        "nome": "produto",
+        "validade": "2028-05-27",
+        "preco": 12,
+        "precoDesconto": 10
+    },
+    {
+        "nome": "teste",
+        "validade": "2026-04-24",
+        "preco": 12,
+        "precoDesconto": 10
     }
 ]

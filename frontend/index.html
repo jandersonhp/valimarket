@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>ValiMarket</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>ValiMarket 🛒</h1>
+
+  <h2>Cadastrar Produto</h2>
+  <form id="formProduto">
+    <input type="text" id="nome" placeholder="Nome do produto" required>
+    <input type="date" id="validade" required>
+    <input type="number" id="preco" placeholder="Preço" required>
+    <input type="number" id="precoDesconto" placeholder="Preço com desconto" required>
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <h2>Produtos Próximos do Vencimento</h2>
+  <ul id="listaProdutos"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
