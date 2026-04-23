@@ -1,20 +1,37 @@
 [
-    {
-        "nome": "Leite",
-        "validade": "2026-05-01",
-        "preco": 5.0,
-        "precoDesconto": 3.0
-    },
-    {
-        "nome": "produto",
-        "validade": "2028-05-27",
-        "preco": 12,
-        "precoDesconto": 10
-    },
-    {
-        "nome": "teste",
-        "validade": "2026-04-24",
-        "preco": 12,
-        "precoDesconto": 10
-    }
+  {
+    "nome": "Leite Integral 1L",
+    "validade": "2026-04-25",
+    "preco": 5.50,
+    "precoDesconto": 3.99,
+    "empresa": "Mercado Bom Preco"
+  },
+  {
+    "nome": "Pao de Forma",
+    "validade": "2026-04-24",
+    "preco": 7.00,
+    "precoDesconto": 4.50,
+    "empresa": "Padaria Pao Quente"
+  },
+  {
+    "nome": "Iogurte Natural",
+    "validade": "2026-04-23",
+    "preco": 4.00,
+    "precoDesconto": 2.50,
+    "empresa": "Supermercado Central"
+  },
+  {
+    "nome": "Queijo Mussarela 200g",
+    "validade": "2026-04-26",
+    "preco": 12.00,
+    "precoDesconto": 8.99,
+    "empresa": "Mercado Economico"
+  },
+  {
+    "nome": "Presunto Fatiado 200g",
+    "validade": "2026-04-23",
+    "preco": 10.00,
+    "precoDesconto": 6.99,
+    "empresa": "Mercado Bom Preco"
+  }
 ]

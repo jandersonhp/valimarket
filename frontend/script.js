@@ -11,6 +11,7 @@ if (form) {
     e.preventDefault();
 
     const produto = {
+      empresa: document.getElementById("empresa").value,
       nome: document.getElementById("nome").value,
       validade: document.getElementById("validade").value,
       preco: parseFloat(document.getElementById("preco").value),
@@ -57,16 +58,19 @@ async function carregarProdutos() {
       const validade = new Date(p.validade);
       const dias = (validade - hoje) / (1000 * 60 * 60 * 24);
 
-      li.innerHTML = `
-        <strong>${p.nome}</strong><br>
-        💰 De R$${p.preco} por <b>R$${p.precoDesconto}</b><br>
-        ⏰ Vence em: ${p.validade}
-      `;
+li.innerHTML = `
+  <div style="display:flex; flex-direction:column; gap:5px;">
+    <strong style="font-size:16px;">${p.nome}</strong>
+    <span>🏪 ${p.empresa}</span>
+    <span>💰 <s>R$${p.preco}</s> → <b style="color:green;">R$${p.precoDesconto}</b></span>
+    <span>⏰ Vence: ${p.validade}</span>
+  </div>
+`;
 
       // destaque se estiver MUITO perto de vencer
-      if (dias <= 2) {
-        li.style.border = "2px solid red";
-      }
+if (dias <= 2) {
+  li.style.background = "#ffe6e6";
+}
 
       lista.appendChild(li);
     });

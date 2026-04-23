@@ -38,6 +38,7 @@ def adicionar_produto():
     data = request.json
 
     produto = {
+        "empresa": data["empresa"],
         "nome": data["nome"],
         "validade": data["validade"],
         "preco": data["preco"],
