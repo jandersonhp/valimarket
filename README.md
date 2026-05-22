@@ -138,13 +138,13 @@ Além disso, possui potencial de expansão e escalabilidade, podendo futuramente
 A modelagem UML foi utilizada para definir a estrutura e o fluxo do sistema, garantindo a organização e viabilidade técnica da solução.
 
 ### Diagrama de Classes
-![Diagrama de Classes](docs/img/diagrama-classes.png)
+![Diagrama de Classes](https://raw.githubusercontent.com/jandersonhp/valimarket/refs/heads/main/docs/img/diagrama-classes.png)
 
 ### Caso de Uso
-![Caso de Uso](docs/img/caso-de-uso.png)
+![Caso de Uso](https://raw.githubusercontent.com/jandersonhp/valimarket/refs/heads/main/docs/img/caso-de-uso.png)
 
 ### Sequência
-![Sequência](docs/img/sequencia.png)
+![Sequência](https://raw.githubusercontent.com/jandersonhp/valimarket/refs/heads/main/docs/img/sequencia.png)
 
 ---
 
@@ -163,6 +163,7 @@ https://jandersonhp.github.io/valimarket/roteiro/bmc.pdf
 
 - 🎥 Pitch em vídeo (em breve)
 
+- 🔗 Demonstração do produto: [ValiMarket Site](https://valimarket.onrender.com/)
 ---
 
 ## 🚀 Como executar o projeto
